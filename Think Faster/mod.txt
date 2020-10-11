@@ -1,0 +1,20 @@
+{
+	"name" : "Think Faster",
+	"description" : "Removes the 60 tasks per second limit for cops, allowing them to think faster even with many cops on the map.",
+	"author" : "Rokk",
+	"contact" : "Rokk#8740",
+	"version" : "1.0",
+	"blt_version" : 2,
+	"hooks" : [
+		{ "hook_id": "lib/managers/menumanager", "script_path": "menu/thinkfastermenu.lua" },
+		{ "hook_id": "lib/managers/enemymanager", "script_path": "lua/enemymanager.lua" }
+	],
+	"updates" : [
+		{
+			"identifier" : "thinkfaster_rokk",
+			"host" : {
+				"meta" : "https://github.com/HugoZink/PD2_ThinkFaster/releases/download/pd2mod_release/meta.json"
+			}
+		}
+	]
+}

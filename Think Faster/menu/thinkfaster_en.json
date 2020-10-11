@@ -1,0 +1,9 @@
+{
+	"thinkfaster_title": "Think Faster",
+	"thinkfaster_desc": "Options for Think Faster",
+
+	"thinkfaster_task_throughput_persecond": "Task Throughput",
+	"thinkfaster_task_throughput_persecond_desc": "How many tasks can cops execute per second. Increasing this will make cops smarter but may impact performance.\nDefault: 1000",
+
+	"thinkfaster_thanks": "Carkidd <3"
+}
