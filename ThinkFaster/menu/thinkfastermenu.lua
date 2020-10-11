@@ -1,6 +1,6 @@
 dofile(ModPath .. "core.lua")
 
-Hooks:Add('LocalizationManagerPostInit', 'betterjokersmenu_loadlocalization', function(loc)
+Hooks:Add('LocalizationManagerPostInit', 'thinkfastermenu_loadlocalization', function(loc)
 	loc:load_localization_file(ThinkFaster.ModPath .. 'menu/thinkfaster_en.json', false)
 end)
 
