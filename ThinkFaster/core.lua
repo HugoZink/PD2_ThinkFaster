@@ -2,10 +2,10 @@ if not ThinkFaster then
     _G.ThinkFaster = {}
     
     ThinkFaster.ModPath = ModPath
-    ThinkFaster.SavePath = SavePath
+    ThinkFaster.SavePath = SavePath .. "thinkfaster.json"
 
     ThinkFaster.settings = {
-        task_throughput = 1000
+        task_throughput = 650
     }
 
     -- Load menu settings

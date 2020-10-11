@@ -7,12 +7,12 @@
 	"items": [
 		{
 			"type" : "slider",
-			"id" : "thinkfaster_task_throughput_persecond",
+			"id" : "task_throughput",
 			"title" : "thinkfaster_task_throughput_persecond",
 			"description" : "thinkfaster_task_throughput_persecond_desc",
 			"callback" : "thinkfaster_task_throughput_persecond",
 			"value" : "task_throughput",
-			"default_value" : 1000,
+			"default_value" : 650,
 			"min" : 100,
 			"max" : 5000,
 			"step" : 10
