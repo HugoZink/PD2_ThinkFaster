@@ -5,5 +5,12 @@
 	"thinkfaster_task_throughput_persecond": "Task Throughput",
 	"thinkfaster_task_throughput_persecond_desc": "How many tasks can cops execute per second. Increasing this will make cops smarter but may impact performance. Default: 650",
 
+	"thinkfaster_tailored_throughput_enabled": "Tailored Throughput",
+	"thinkfaster_tailored_throughput_enabled_desc": "If enabled, throughput can be adjusted for some particularly badly-performing heists, allowing you to use lower task throughput values which apply to those heists only. Check the Mod Workshop page or core.lua for more info.",
+	"thinkfaster_tailored_throughput_badlyoptimized": "Task Throughput (badly optimized heists)",
+	"thinkfaster_tailored_throughput_badlyoptimized_desc": "How many tasks cops can execute per second on \"badly optimized\" heists. See the Mod Workshop page or core.lua for more information.",
+	"thinkfaster_tailored_throughput_verybadlyoptimized": "Task Throughput (very badly optimized heists)",
+	"thinkfaster_tailored_throughput_verybadlyoptimized_desc": "How many tasks cops can execute per second on \"VERY badly optimized\" heists. See the Mod Workshop page or core.lua for more information.",
+
 	"thinkfaster_thanks": "Carkidd <3"
 }

@@ -13,7 +13,40 @@
 			"callback" : "thinkfaster_task_throughput_persecond",
 			"value" : "task_throughput",
 			"default_value" : 650,
-			"min" : 100,
+			"min" : 60,
+			"max" : 5000,
+			"step" : 10
+		},
+		{
+			"type" : "toggle",
+			"id" : "tailored_throughput_enabled",
+			"title" : "thinkfaster_tailored_throughput_enabled",
+			"description" : "thinkfaster_tailored_throughput_enabled_desc",
+			"callback" : "thinkfaster_tailored_throughput_enabled",
+			"value" : "tailored_throughput_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "slider",
+			"id" : "tailored_throughput_badlyoptimized",
+			"title" : "thinkfaster_tailored_throughput_badlyoptimized",
+			"description" : "thinkfaster_tailored_throughput_badlyoptimized_desc",
+			"callback" : "thinkfaster_tailored_throughput_badlyoptimized",
+			"value" : "tailored_throughput_badlyoptimized",
+			"default_value" : 300,
+			"min" : 60,
+			"max" : 5000,
+			"step" : 10
+		},
+		{
+			"type" : "slider",
+			"id" : "tailored_throughput_verybadlyoptimized",
+			"title" : "thinkfaster_tailored_throughput_verybadlyoptimized",
+			"description" : "thinkfaster_tailored_throughput_verybadlyoptimized_desc",
+			"callback" : "thinkfaster_tailored_throughput_verybadlyoptimized",
+			"value" : "tailored_throughput_verybadlyoptimized",
+			"default_value" : 200,
+			"min" : 60,
 			"max" : 5000,
 			"step" : 10
 		}
