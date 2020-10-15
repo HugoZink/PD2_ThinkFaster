@@ -13,6 +13,7 @@ if not ThinkFaster then
 
     -- Tailored throughput definitions
     ThinkFaster.heist_throughput_definitions = {
+        mallcrasher = "badlyoptimized", -- Mallcrasher
         sah = "badlyoptimized", -- Shacklethorne Auction
         bph = "badlyoptimized", -- Hells Island
         des = "badlyoptimized", -- Henry's Rock
