@@ -2,7 +2,8 @@ dofile(ModPath .. "core.lua")
 
 function EnemyManager:reindex_tasks()
     local new_tasks_tbl = {}
-    for i,v in ipairs(self._queued_tasks) do
+    for i=1,#self._queued_tasks do
+        local v = self._queued_tasks[i]
         if not v.was_executed then
             table.insert(new_tasks_tbl, v)
         end
@@ -55,6 +56,7 @@ function EnemyManager:_update_queued_tasks(t, dt)
     -- while ipairs doesn't work nicely with nil values.
     -- So therefore, the only solution is to set a "done" flag on the task itself,
     -- then make a new table containing only the "not done" tasks and replace the queue with it.
+    -- Vanilla uses table.remove but this is extremely slow, this was proven with a benchmark
     self:reindex_tasks()
 end
 

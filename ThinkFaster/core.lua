@@ -8,7 +8,7 @@ if not ThinkFaster then
         task_throughput = 650,
         tailored_throughput_enabled = true, -- Use different throughputs than the default on some heists
         tailored_throughput_badlyoptimized = 300,
-        tailored_throughput_verybadlyoptimized = 200
+        tailored_throughput_verybadlyoptimized = 180
     }
 
     -- Tailored throughput definitions
@@ -66,7 +66,7 @@ if not ThinkFaster then
     end
 
     -- Immediately load/save settings to write a file and to load the settings early
-    ThinkFaster:Load()
+    dofile(ModPath .. "loadconfig.lua")
     ThinkFaster:Save()
 
     -- Initialize throughput with the freshly loaded settings
