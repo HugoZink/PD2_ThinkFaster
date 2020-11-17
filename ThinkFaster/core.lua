@@ -20,6 +20,7 @@ if not ThinkFaster then
         vit = "badlyoptimized", -- White House
         mex = "badlyoptimized", -- Border Crossing
         mex_cooking = "badlyoptimized", -- Border Crystals
+        red2 = "badlyoptimized", -- First World Bank
         bex = "verybadlyoptimized", -- San Martin
         pex = "verybadlyoptimized", -- Breakfast in Tijuana
         dih = "verybadlyoptimized", -- Diamond Heist
