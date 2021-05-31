@@ -24,6 +24,7 @@ function EnemyManager:_update_queued_tasks(t, dt)
     -- Overkill intended for these to be handled one frame later.
     -- So don't do "while task do task", only go as far as the initial queue size
     -- (Or as far as the task allowance for this frame, whichever is smaller)
+    -- If you handle them on the same frame that they were added, you may experience occasional crashes, with the crash log blaming a vanilla function somewhere.
     for i=1, #self._queued_tasks do
         local task_data = self._queued_tasks[i]
 

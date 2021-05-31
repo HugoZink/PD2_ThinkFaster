@@ -5,7 +5,7 @@ if not ThinkFaster then
     ThinkFaster.SavePath = SavePath .. "thinkfaster.json"
 
     ThinkFaster.settings = {
-        task_throughput = 650,
+        task_throughput = 500,
         tailored_throughput_enabled = true, -- Use different throughputs than the default on some heists
         tailored_throughput_badlyoptimized = 300,
         tailored_throughput_verybadlyoptimized = 180
@@ -27,7 +27,7 @@ if not ThinkFaster then
         peta = "verybadlyoptimized" -- Goat Simulator
     }
 
-    ThinkFaster.current_throughput = 650
+    ThinkFaster.current_throughput = 500
 
     -- Allows changing the throughput mid-game
     -- Value has to be written to here rather than executing this logic every frame in EnemyManager
